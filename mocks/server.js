@@ -1,0 +1,14 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+const { UserTestMock } = require('./user')
+
+const jsonServer = require('json-server')
+
+const server = jsonServer.create()
+const router = jsonServer.router({ UserTestMock })
+const middlewares = jsonServer.defaults()
+
+server.use(middlewares)
+server.use(router)
+server.listen(3001, () => {
+  console.log('JSON Server is running')
+})

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hello /> should render the heading 1`] = `
+.c0 {
+  color: blue;
+}
+
+<h1
+  class="c0"
+>
+  Hello World 🚀 
+</h1>
+`;

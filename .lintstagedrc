@@ -1,0 +1,7 @@
+{
+  "src/**/*.ts(x)": [
+    "prettier --write --ignore-unknown",
+    "eslint 'src/**' --quiet --fix",
+    "yarn test:stage"
+  ]
+}
