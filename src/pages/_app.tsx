@@ -11,8 +11,8 @@ function App({ Component, pageProps }: AppProps) {
     <ThemeProvider theme={Token}>
       <GlobalStyles />
       <Head>
-        <title>Wave - Customer</title>
-        <meta name='description' content='The best Customer manager for you!' />
+        <title>NextJs Boilerplate</title>
+        <meta name='description' content='The best boilerplate with NextJs for you!' />
       </Head>
       <DefaultSeo />
       <NextNprogress
